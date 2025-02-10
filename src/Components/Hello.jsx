@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
+import '../App.css'; 
+
 
 const NamePrompt = () => {
   const [name, setName] = useState('');
   const [submittedName, setSubmittedName] = useState('');
 
   const handleSubmit = () => {
-    setSubmittedName(name); // Store the name when submitted
+    setSubmittedName(name); 
   };
 
   return (
